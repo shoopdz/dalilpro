@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>دليل إضافة المنتجات</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+    font-family: 'El Messiri', sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    .guide-section {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .guide-header h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #2c3e50;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .guide-cards-container {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+
+    .guide-card {
+      background-color: #fefefe;
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    .guide-icon {
+      font-size: 28px;
+      color: #3498db;
+      margin-bottom: 10px;
+    }
+
+    .guide-card h3 {
+      margin: 10px 0;
+      color: #34495e;
+    }
+
+    .guide-card p {
+      margin: 0 0 10px;
+      line-height: 1.6;
+    }
+
+    .guide-link {
+      display: inline-block;
+      background-color: #3498db;
+      color: #fff;
+      padding: 8px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
+
+    .guide-link i {
+      margin-left: 5px;
+    }
+
+    .sites-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .site-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .site-card img {
+      max-width: 100%;
+      max-height: 60px;
+      margin-bottom: 8px;
+    }
+
+    .site-card span {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .site-card:hover {
+      border-color: #3498db;
+      transform: scale(1.03);
+    }
+
+    @media (max-width: 600px) {
+      .guide-header h2 {
+        font-size: 20px;
+      }
+
+      .guide-card h3 {
+        font-size: 18px;
+      }
+
+      .guide-link {
+        font-size: 14px;
+        padding: 6px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="guide-section">
+    <div class="guide-header">
+      <h2><i class="fas fa-graduation-cap"></i> دليل إضافة المنتجات</h2>
+    </div>
+
+    <div class="guide-cards-container">
+      <!-- بطاقة الشرح النصي -->
+      <div class="guide-card text-guide">
+        <div class="guide-icon">
+          <i class="fas fa-link"></i>
+        </div>
+        <h3>إضافة الصور عبر الروابط</h3>
+        <p>تعلم كيفية إضافة منتجات باستخدام روابط الصور بدلاً من الرفع المباشر.</p>
+
+        <div class="steps-container">
+          <a href="https://youtube.com/shorts/YWwP9eZZ-ko?si=fdgqAJX0SlEWGV9Y" class="guide-link" target="_blank">
+            <i class="fa-solid fa-video"></i> شرح مفصل بالفيديو انقر هنا
+          </a>
+
+          <br><br>
+          <h3>مواقع رفع الصور</h3>
+          <p>أفضل المواقع لتحويل صورك إلى روابط مباشرة 👇👇</p>
+
+          <div class="sites-grid">
+            <a href="https://postimages.org/" target="_blank" class="site-card">
+              <img src="https://postimgs.org/img/logo.png" alt="postimages">
+              <span>Postimages</span>
+            </a>
+
+            <a href="https://top4top.io/" target="_blank" class="site-card">
+              <img src="https://top4top.io/favicon.ico" alt="Top4Top">
+              <span>Top4Top</span>
+            </a>
+
+            <a href="https://gofile.io/home" target="_blank" class="site-card">
+              <img src="https://gofile.io/dist/img/logo-big.png" alt="GoFile">
+              <span>GoFile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
